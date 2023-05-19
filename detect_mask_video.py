@@ -102,9 +102,9 @@ def send_email():
 	# Which refer to standard protocols used to secure email transmissions.
     port = 587  
     smtp_server = "smtp.gmail.com"
-    sender_email = "princerenaud2@gmail.com"
-    receiver_email = "princerenaud2@gmail.com"
-    password = "igcbciswgcsushxa" 
+    sender_email = "Put your email here"
+    receiver_email = "Put your receiver email here"
+    password = "Put your password here" 
     message = MIMEMultipart()
     message['From'] = sender_email
     message['To'] = receiver_email
