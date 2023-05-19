@@ -1,0 +1,23 @@
+#These are the packages needed to be installed by using pip install:
+tensorflow
+keras
+imutils
+numpy
+opencv-python
+matplotlib
+scipy
+
+#How to get the password from google Authenticator
+First, you need to enable 2-Step Verification. 
+Just go to your Google Account > Security > Signing in to Google, 
+and select 2-Step Verification and follow the instruction.
+
+Next, create an app password. 
+Just select ‘App passwords’ under ‘2-Step Verification’ and you will see a window as follows.
+Select ‘Other’ in the ‘Select app’ dropdown
+And enter a name, e.g. Python, and click ‘GENERATE’. 
+!Note this name has no link to the Python script and it could be anything.
+
+Then you will get a new app password. 
+Copy and save the 16-character password without space, e.g. xnwbjmgvjeeevlgc, to use in your Python script.
+Copy and Paste this password at line 105 0f detect_mask_video file
